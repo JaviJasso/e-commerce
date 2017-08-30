@@ -7,20 +7,15 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import BaseLayout from "./components/BaseLayout"
 import Sup from "./components/Sup"
-import BodyParts from "./components/BodyParts"
-import Experiences from "./components/Experiences"
-import Food from "./components/Food"
-import Contact from "./components/Contact"
+import SurfLongboard from "./components/SurfLongboard"
+
 
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
         <Route path="/sup" component={Sup} />
-        <Route path="/bodyparts" component={BodyParts} />
-        <Route path="/experiences" component={Experiences} />
-        <Route path="/food" component={Food} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/surflongboard" component={SurfLongboard} />
         <Route path="/" component={App} />
       </Switch>
     </BaseLayout>
