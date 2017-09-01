@@ -1,0 +1,89 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 2em;
+  background-color: black;
+  margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+
+
+}
+
+a:hover {
+  color: #696969;
+}
+
+.appClass {
+  margin: 1em;
+
+}
+
+.appClass h1{
+  display: flex;
+  justify-content: center;
+  color: #696969;
+}
+
+.appClass p {
+  display: flex;
+  justify-content: center;
+}
+
+.appClass img{
+  width: 100%;
+  height: auto;;
+}
+
+////
+.supContainer{
+  margin: 1em;
+
+}
+
+.firstSup {
+  margin: 1em;
+
+}
+
+.firstSup h2 {
+  display: flex;
+  justify-content: center;
+  color: #696969;
+}
+
+.firstSup p {
+  display: flex;
+  justify-content: center;
+}
+
+.firstSup img{
+  width: 100vh;
+  height: auto;;
+}
+
+.contactPage email{
+  display: flex;
+  justify-content: center;
+  color: #696969;
+  font-size: 2em;
+}
+
+.contactPage h1{
+  display: flex;
+  justify-content: center;
+  color: #696969;
+  font-size: 2em;
+}
+
+.contactPage p{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 1.5em;
+}
