@@ -8,19 +8,19 @@ export default class BaseLayout extends Component {
         <nav>
           <ul>
             <li>
-              <NavLink to="/">Awestruck Co</NavLink>
+              <NavLink activeClassName="selected" to="/">Awestruck Co</NavLink>
             </li>
             <li>
-              <NavLink to="/boards">Boards</NavLink>
+              <NavLink activeClassName="selected"  to="/boards">Boards</NavLink>
             </li>
             <li>
-              <NavLink to="/kites">Kites</NavLink>
+              <NavLink activeClassName="selected"  to="/kites">Kites</NavLink>
             </li>
             <li>
-              <NavLink to="/destinations">Destinations</NavLink>
+              <NavLink activeClassName="selected"  to="/destinations">Destinations</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink activeClassName="selected"  to="/contact">Contact</NavLink>
             </li>
           </ul>
           {this.props.children}

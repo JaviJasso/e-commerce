@@ -1,3 +1,7 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Libre Barcode 39 Text', cursive;*/
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -5,6 +9,7 @@ nav ul {
   padding: 2em;
   background-color: black;
   margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 nav a{
@@ -22,17 +27,23 @@ a:hover {
 .appClass {
   margin: 1em;
 
+
 }
 
 .appClass h1{
   display: flex;
   justify-content: center;
   color: #696969;
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .appClass p {
   display: flex;
   justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
 }
 
 .appClass img{
@@ -42,13 +53,12 @@ a:hover {
 
 ////
 .supContainer{
-  margin: 1em;
-
+  margin: 1em
 }
 
 .firstSup {
   margin: 1em;
-
+  font-family: 'Raleway', sans-serif;
 }
 
 .firstSup h2 {
@@ -63,8 +73,9 @@ a:hover {
 }
 
 .firstSup img{
-  width: 100vh;
+  width: 150vh;
   height: auto;;
+  margin: 0 2em 0 2em;
 }
 
 .contactPage email{
@@ -86,4 +97,13 @@ a:hover {
   justify-content: center;
   color: black;
   font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.contactPage img{
+  width: 150vh;
+  height: auto;;
+  margin: 0 2em 0 2em;
 }
